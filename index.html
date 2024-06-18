@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Fliperama Scratch</title>
+  
+</head>
+<body>
+    <header>
+        <div class="logo">
+ 
+        <h1>FLIPERAMA</h1>
+        <img class="logo-S" src="logo-S.png" alt="Logo do Scratch" width="150" height="50">
+    </div>
+    <nav>
+            <a href="#conheca">Conheça o Scratch</a>
+
+            
+            <a href="#jogos">Área de Jogos</a>
+
+ <div class="dropdown">
+    <img class="accessibility-icon" src="acessibilidade (1).png" alt="Acessibilidade (Accessibility)" width="40px">  <div class="dropdown-content">
+      <a href="#">
+        <div class="font-options">
+          <p class="text-font">Edite o tamanho da fonte</p> <button id="aumentar">+</button>
+          <button id="diminuir">-</button>
+        </div>
+      </a>
+  
+      <a href="#">
+        <div id="contrastOptions">
+          <button id="blackAndWhite"> Branco</button>
+          <button id="black"> Preto</button>
+        </div>
+      </a>
+  
+      <a href="#">
+        <label for="color-filter">Filtro de Daltonismo:</label>
+        <select id="color-filter">
+          <option value="default">Cores padrão</option>
+          <option value="achromatomaly">Acromatopsia</option>
+          <option value="deuteranomaly">Deuteranomalia</option>
+          <option value="tritanomaly">Tritanomalia</option>
+          <option value="Acromatopsia">Acromatopsia</option> (Consider removing duplicate option)
+          <option value="Deuteranopia">Deuteranopia</option>
+          <option value="Protanopia">Protanopia</option>
+        </select>
+      </a>
+    </div>
+  </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>CONHEÇA O SCRATCH</h2>
+            <p>O Scratch é uma plataforma de programação visual desenvolvida pelo MIT para ajudar crianças e 
+                iniciantes a aprenderem programação de forma divertida e acessível. 
+                Sua interface gráfica é baseada em blocos de código que representam diferentes 
+                comandos e operações, os quais são arrastados e soltos para formar scripts.
+                 Esses blocos incluem ações como movimento, som, aparência e controle, organizados 
+                 em categorias para facilitar o acesso</p>
+        </div>
+    </div>
+
+    <div class="area-de-jogos">
+        
+        <div class="jogo">
+            <iframe src="https://scratch.mit.edu/projects/31651654/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            <h3>Tetris</h3>
+            
+            <p> Criador: smelly_hobbit </p>
+            <p>
+                Setas para esquerda e direita para mover, A & S para girar (ou seta para cima), seta para baixo para acelerar.
+                Para jogar novamente pressione a bandeira verde</p>
+
+        </div>
+        <div class="jogo" class="jogo2">
+            <iframe src="https://scratch.mit.edu/projects/1038898948/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            <h3>Faster</h3>
+            
+            <p> Criadores:  livcar_su e JuCD </p>
+            <p>Como jogar?
+                As palavras aparecerão em cores distintas. Cada tecla possui uma cor, então clique na cor de *dentro* da palavra que aparecer na tela.
+                Teremos 3 níveis, então seja rápido e vença seu oponente!</p>
+
+        </div>
+        <div class="jogo">
+            <iframe src="https://scratch.mit.edu/projects/216123417/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            <h3>Super Mario for Scratch</h3>
+            
+            <p> Criador:  Brad-Games </p>
+            <p> Use as setas para esquerda/direita para se mover e a seta para cima para pular. Evite tocar inimigos, ou você vai perder vida. Colete cogumelos para ganhar vida e pegue o cogumelo 1UP para ganhar uma vida extra!  Pule em cima dos trampolins para saltar alto e não fique nas plataformas quadriculadas por muito tempo, senão você vai cair! Na batalha final, Bowser vai andar para frente e para trás algumas vezes cuspindo bolas de fogo e depois vai abaixar.</p>
+
+                
+        </div>
+    </div>
+<script src="script.js"></script>
+    <footer>
+        <p>Desenvolvido por: Lívia C. Suana e Marina Fonseca</p>
+        <div vw class="enabled"> 
+            <!-- Esta div possui o atributo customizado 'vw' e a classe 'enabled', que  são usados pelo plugin VLibras para identificar e estilizar o contêiner principal do widget. --> 
+            <div vw-access-button class="active"></div> 
+            <!-- Esta div representa o botão de acesso ao VLibras. Tem um atributo customizado 'vw-access-button' e a classe 'active', indicando que o botão está ativo e visível. --> 
+            <div vw-plugin-wrapper> 
+                <!-- Esta div atua como um contêiner para o plugin VLibras. O atributo 'vw-plugin-wrapper' provavelmente é utilizado para o plugin identificar onde deve ser inserido seu conteúdo. --> 
+                <div class="vw-plugin-top-wrapper"></div> 
+                <!-- Esta div interna pode ser utilizada para posicionar elementos ou funcionalidades adicionais do plugin VLibras na parte superior do widget. --> 
+            </div> 
+            </div> <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script> 
+    </footer>
+</body>
